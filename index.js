@@ -4,7 +4,7 @@ $(document).ready(function(){
     message: 'Looks like somebody is running the sample!'
   };
 
-  $.post('http://originmessages.herokuapp.com/messages', message, function(data) {
+  $.ajax('http://originmessages.herokuapp.com/messages', message, function(data) {
 
   })
 )};
